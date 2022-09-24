@@ -172,7 +172,8 @@ print(args.var, args.int)
 ```
 ```bash
 >python3 arg.py 
-None None>python3 arg.py  --help
+None None
+>python3 arg.py  --help
 usage: arg.py [-h] [--var VAR] [--int INT]
 
 just example
