@@ -9,7 +9,7 @@ Before talking  about how to pass variables to your project let us think why you
 So let us begin.
 
 ## Load data from a file
-One way to load data would be importing a dummy class where, variables.py  python file that has that dummy class and main.py the main program.
+One way to load data would be importing a dummy class where, variables.py  python file that has that dummy class and main.py is the main program.
 
 **variables.py**
 
@@ -116,7 +116,7 @@ Section1:
 [os](https://docs.python.org/3/library/os.html)
 
 ```bash
-> export my_super_secret_var3="Top secret"
+> export my_super_secret_var3="Top secret"simply 
 >  env| grep my_super_secret_var3
 my_super_secret_var3=Top secret
 ```
@@ -128,7 +128,7 @@ print(secret_key)
 ```
 
 ## We can also pass a variable to the script using command line arguments.
-The following example assumes that you use exact one argument. argv[0] always represents the script name, similar to shells
+The following example assumes that you use exactly one argument. argv[0] always represents the script name, similar to shells
 
 [sys](https://docs.python.org/3/library/sys.html)
 
