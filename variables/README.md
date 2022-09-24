@@ -158,7 +158,7 @@ dada
 >
 
 ```
-Though much easier use (argparse)[https://docs.python.org/3/library/argparse.html] and not trying  to write your own sys.argv parser
+Though much easier use [argparse](https://docs.python.org/3/library/argparse.html) and not trying  to write your own sys.argv parser
 
 **arg.py**
 
