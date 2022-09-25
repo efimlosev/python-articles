@@ -49,7 +49,7 @@ for k, v in my_vars.items():
     my_super_secret_var1="Top Secret"
     my_super_var2 = 1
 ```
-Similarly, we  can load, Json, Yaml files or handle parsing configs using configparser module. Let us explore these options.
+Similarly, we can load: Json, and Yaml files or handle parsing configs using configparser module.
 
 [configparser](https://docs.python.org/3/library/configparser.html)
 
