@@ -31,7 +31,7 @@ my_local_var = Variables().my_super_secret_var1
 print(my_local_var)
 ```
 
-The other way is simply load a text file and parse it by built-n method
+The other way is simply load a text file and parse it by built-n method.
 
 **basic.py**
 ``` python
@@ -127,7 +127,7 @@ print(secret_key)
 ```
 
 ## We can also pass a variable to the script using command line arguments.
-The following example assumes that you use exactly one argument. argv[0] always represents the script name, similar to shells
+The following example assumes that you use exactly one argument. argv[0] always represents the script name, similar to shells.
 
 [sys](https://docs.python.org/3/library/sys.html)
 
@@ -157,7 +157,7 @@ dada
 >
 
 ```
-Though, much easier to use [argparse](https://docs.python.org/3/library/argparse.html) and not try to write your ourselves sys.argv parser
+Though, much easier to use [argparse](https://docs.python.org/3/library/argparse.html) and not try to write your ourselves sys.argv parser.
 
 **arg.py**
 
