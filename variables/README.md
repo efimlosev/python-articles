@@ -1,15 +1,14 @@
 # How to load variables in your Python project
 
 ## Why should we do  this?
-Before talking  about how to pass variables to your project let us think why you should do this,at least I think of these two reasons, and please correct me if I am wrong.
+Before talking  about how to pass variables to your project let us think why you should do this, I can think of these two reasons.
+- Security: if you keep your access keys in the code, eventually they will leak.
+- Flexibility: it is much easier test your code if you can just substitute values of your variables.
 
-- Security, if  keep your access keys in the code eventually, they would leak.
-- Flexibility, it much easier test your code if you can just substitute values of your variables.
-
-So let us begin.
+Onward.
 
 ## Load data from a file
-One way to load data would be importing a dummy class where, variables.py  python file that has that dummy class and main.py is the main program.
+One way to load data is importing a dummy class, where variables.py  python file that has that dummy class and main.py is the main program.
 
 **variables.py**
 
