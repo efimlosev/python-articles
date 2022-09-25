@@ -1,7 +1,7 @@
 # How to load variables in your Python project
 
 ## Why should we do  this?
-Before talking  about how to pass variables to your project let us think why you should do this, I can think of these two reasons.
+I can think of these two reasons.
 - Security: if you keep your access keys in the code, eventually they will leak.
 - Flexibility: it is much easier test your code if you can just substitute values of your variables.
 
